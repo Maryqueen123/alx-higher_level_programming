@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Define a class Square."""
 
 
@@ -57,4 +56,3 @@ class Square:
             [print(" ", end="") for j in range(0, self.__position[0])]
             [print("#", end="") for k in range(0, self.__size)]
             print("")
-
