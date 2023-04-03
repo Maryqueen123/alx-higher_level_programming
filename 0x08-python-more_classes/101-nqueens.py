@@ -5,7 +5,7 @@ Write a program that solves the N queens problem
 """
 
 
-import sys
+from sys import argv
 
 if __name__ == "__main__":
     a = []
