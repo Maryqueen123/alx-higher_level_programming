@@ -16,4 +16,4 @@ class MyInt(int):
 
     def __ne__(self, mother):
         """override != operatior with == operator"""
-        return int(self) == other
+        return int(self) == mother
