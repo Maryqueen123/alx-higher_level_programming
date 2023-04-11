@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-writing the lookup function
+contains the lookup function
 """
 
 
 def lookup(obj):
-    """program to returns a list of available attributes and methods of an object"""
+    """returns a list of available attributes and methods of an object"""
     return dir(obj)
